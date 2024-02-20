@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primer Onclick</title>
+    <link rel="stylesheet" href="index.css">
+
+</head>
+<!-- He preparado algo de HTML básico con un poco de estilo 
+        para que podamos poner el evento onclick en práctica en el mundo real. -->
+<body>
+    <!-- sintasix Basico de Onclick -->
+        <!-- La función que queremos ejecutar es changeColor(). 
+        Entonces necesitamos 
+        escribirlo en un archivo JavaScript o en el archivo HTML dentro de una etiqueta
+         <script>. -->
+        
+    <div>        
+        <p class="name">freeCodeCamp</p>
+        <button onclick="changeColor('blue')" class="blue">Blue</button>
+        <button onclick="changeColor('green')" class="green">Green</button>
+        <button onclick="changeColor('orangered')" class="orange">Orange</button>
+    </div>
+   <!-- Si desea escribir su script en un archivo JavaScript, 
+            debe vincularlo en HTML usando la siguiente sintaxis: -->
+    <script src="index.js"></script>
+</body>
+
+</html>
